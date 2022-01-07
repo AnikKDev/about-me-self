@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url(./images/bg-3.jpg);
+    
+    background-size: cover;
+    
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.582);
+    height: 70px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    
+    
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 11px 20px;
+    font-size: 22px;
+    transition: 0.4s;
+    text-transform: uppercase;
+    border-radius: 22px;
+
+}
+.contact{
+    text-decoration: none;
+    color: white;
+    padding: 11px 20px;
+    font-size: 22px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    border-radius: 22px;
+
+
+}
+ul li a:hover{
+    background-color: white;
+    border-radius: 22px;
+    color: black;
+    padding: 11px 22px;
+    box-shadow: 1px 8px 13px rgba(0, 0, 0, 0.513);
+}
+.contact:hover{
+    background-color: white;
+    border-radius: 22px;
+    color: black;
+    box-shadow: 1px 8px 13px rgba(0, 0, 0, 0.513);
+} 
+
+/* section */
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 85vh;
+}
+.profile-img{
+    width: 25%;
+}
+.profile-img img{
+    width:100%;
+}
+.about-me{
+    width: 50%;
+}
